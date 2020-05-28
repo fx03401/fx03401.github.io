@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project 4 - Tạo được trang web (HTML, CSS, Bootstrap) và đưa lên mạng</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="./css/all.css">
+</head>
+
+<body>
+	<header class="bg-primary">
+		<nav class="navbar navbar-expand-sm bg-primary navbar-dark mwidth">
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- Brand -->
+			<a class="navbar-brand mx-auto" href="./index.html"><b>CREVEA Inc.</b></a>
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto fsize">
+					<li class="nav-item">
+						<a class="nav-link text-warning active" href="./home.html"><b>Home</b><span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white color_mobile" href="./our-business.html"><b>OUR BUSINESS</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white color_mobile" href="./about-us.html"><b>ABOUT US</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white color_mobile" href="./news.html"><b>NEWS</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white color_mobile" href="./contact.html"><b>CONTACT</b></a>
+					</li>
+				</ul>
+			</div>
+			<ul class="navbar-nav fsize">
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Tạo 01 ảnh tiêu đề -->
+	<div>
+		<img class="img-fluid" src="./images/z7MBEsN.jpg" alt="z7MBEsN">
+	</div><br>
+
+	<!-- Phần 02 - Tạo bố cục một bên là văn bản, một bên là hình ảnh -->
+	<div class="row mwidth">
+		<div class="col-sm-6">
+			<p><hr class="hr_">&nbsp;&nbsp;&nbsp;ABOUT US</p>
+			<p><b>Our goal is "to support and connect educational institutions, companies across the world by providing highly qualified/skilled human resource for mutual development and consulting services in job and skills training". Achieving this, we hope to contribute to the betterment of society.</b></p>
+			<p><i class="fsize_11">Our staff are highly experienced and senior members of diverse backgrouds in educational institutions and companies in Vietnam and other territories across the globe. We could provide superior services to our customers.</i></p>
+		</div>
+		<div class="col-sm-6">
+			<img class="img-fluid w-100" src="./images/RsFGT4B.jpg" alt="RsFGT4B">
+		</div>
+	</div><br>
+
+	<!-- Phần 03 - Tạo bố cục một bên là ảnh, một bên là chữ trên nền ảnh -->
+	<div class="row">
+		<div class="col-md px-0 margin1">
+			<img class="img-fluid w-100 h-100" src="./images/5AVVaKY.jpg" alt="5AVVaKY">
+		</div>
+		<div class="col-md px-0 margin2" id="content_2_right">
+			<h5>
+				<a class="text-white" href="./our-business.html"><hr class="hr_2">&nbsp;&nbsp;&nbsp;Our business</a>
+			</h5>
+			<br>
+			<ul>
+				<li>
+					<img src="./images/g8Uz5Ei.jpg" alt="g8Uz5Ei" id="x">
+					<b><a class="text-white" href="#">Education consulting</a></b>
+					<p>We offer various services as required from different educational institutions in Vietnam.</p>
+				</li>
+				<li>
+					<img src="./images/F5Chde2.png" alt="F5Chde2" id="y">
+					<b><a class="text-white" href="#">Business consulting</a></b>
+					<p>We provide various services according to requests from foreign companies and educational institutions.</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Phần 04 - Tạo 03 cột nội dung -->
+	<div class="row px-3 mwidth">
+		<div class="text-left">
+			<p><hr class="hr_">&nbsp;&nbsp;&nbsp;News</p>
+			<p><b>Latest News</b></p>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<div><img class="w-100" src="./images/9oymWKS.jpg" alt="9oymWKS"></div>
+				<b><a class="text-dark" href="#">Japanese staff agency company visited to Hanoi</a></b><br>
+				<a class="text-dark" href="#">Read more...</a>
+			</div>
+			<div class="col-sm">
+				<div><img class="w-100" src="./images/N9c8DaB.jpg" alt="N9c8DaB"></div>
+				<b><a class="text-dark" href="#">Taiwanese university visited to Hanoi</a></b><br>
+				<a class="text-dark" href="#">Read more...</a>
+			</div>
+			<div class="col-sm">
+				<div><img class="w-100" src="./images/jmrZrhu.jpg" alt="jmrZrhu"></div>
+				<b><a class="text-dark" href="#">We are pleased to announce the renewal of CREVEA Inc. official website</a></b>
+				<p>We changed the whole design and format to create more efficient and superior experience for our custumers once they visit the website. We will continue updating it and providing more useful information. The website in Japanese will come out soon.<br><a class="text-dark" href="#">Read more...</a></p>
+			</div>
+		</div>
+	</div><br>
+
+	<!-- Phần 05 - Tạo 02 cột nội dung -->
+	<div class="row mwidth">
+		<div class="col-sm">
+			<p><hr class="hr_">&nbsp;&nbsp;&nbsp;Contacts</p>
+			<h4>We will connect you with the relevant person in charge. Please click "Send button" after providing your redistering input.
+			</h4>
+			<div>
+				<form>
+					<div class="row">
+						<div class="col-md">
+							<input class="form-control" type="text" id="name" name="name" placeholder="Your name">
+						</div>
+						<div class="col-md">
+							<input class="form-control" type="text" id="email" name="email" placeholder="Email address">
+						</div>
+						<div class="col-md">
+							<input class="form-control" type="text" id="phone" name="phone" placeholder="Phone number">
+						</div>
+					</div>
+				</form>
+			</div>
+			<div>
+				<form>
+					<textarea class="form-control" id="message" name="message" placeholder="Your message" rows="7"></textarea>
+				</form>
+			</div><br>
+			<center>
+				<div class="d-md-none">
+					<form>
+						<input class="btn btn-warning" type="submit" value="Send message">
+					</form>
+				</div>
+			</center>
+		</div>
+		<div class="col-sm">
+			<input class="img-fluid w-100" type="image" src="./images/o9NCdFV.png" alt="o9NCdFV"><br>
+		</div>
+	</div><br>
+	<center>
+		<div class="d-none d-md-block">
+			<form>
+				<input class="btn btn-warning" type="submit" value="Send message">
+			</form>
+		</div>
+	</center><br>
+
+	<!-- Tạo phần Footer -->
+	<div class="bg-dark">
+		<div class="row mx-auto pt-5 bg-dark text-white mwidth fsize_08rem">
+			<div class="col-md">
+				<h6>CREVEA</h6>
+				<p><b>Add:</b> No 45C, 210 alley Hoang Quoc Viet street Cau Giay - Ha Noi - Viet Nam</p>
+				<p><b>TEL:</b> (+84)-989-412-665</p>
+				<p><b>Email:</b> daisuke.kawashima@crevea.vn</p>
+			</div>
+			<div class="col-md">
+				<h6>CATEGORYS</h6>
+				<ul class="pl-0 lstyle">
+					<li><a class="text-white" href="./home.html"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;Home</a></li>
+					<li><a class="text-white" href="./our-business.html"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;OUR BUSINESS</a></li>
+					<li><a class="text-white" href="./about-us.html"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;ABOUT US</a></li>
+					<li><a class="text-white" href="./news.html"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;NEWS</a></li>
+					<li><a class="text-white" href="./contact.html"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;CONTACT</a></li>
+				</ul>
+			</div>
+			<div class="col-md">
+				<h6>LANGUAGE</h6>
+				<ul class="pl-0 lstyle">
+					<li><a class="text-white" href="#"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;English</a></li>
+					<li><a class="text-white" href="#"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;Japanese</a></li>
+				</ul>
+			</div>
+			<div class="col-md">
+				<h6>GET OUR NEWS FROM US</h6>
+				<p><b>Please enter the email below to not miss the latest news from us!</b></p>
+				<form>
+					<input type="text" id="email" name="email" placeholder="Your email address">
+					<input type="submit" id="submit" name="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+		<div class="text-center bg-dark text-white">
+			<hr class="text-white border">
+			<p><b>© 2018 CREVEA Ins. All rights Reserved.</b></p>
+		</div>
+	</div>
+
+<script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</body>
+</html>

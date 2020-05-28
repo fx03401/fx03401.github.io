@@ -1,0 +1,94 @@
+.mwidth {
+	max-width: 895px;
+	margin: auto;
+}
+
+.fsize {
+	font-size: 13px;
+}
+
+.fsize_11 {
+	font-size: 11px;
+}
+
+.fsize_08rem {
+	font-size: 0.8rem;
+}
+
+.hr_ {
+	width: 30px;
+	height: 3px;
+	background-color: blue;
+	float: left;
+}
+
+.hr_center {
+	width: 30px;
+	height: 3px;
+	background-color: blue;
+}
+
+#content_2_right {
+	background-image: url("./images/YE6srBq.jpg");
+	background-size: 100% 100%;
+	color: white;
+}
+
+.hr_2 {
+	width: 30px;
+	height: 3px;
+	background-color: white;
+	float: left;
+	margin-left: 40px;
+}
+
+#x {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: block;
+	margin-left: -3.5rem;
+	position: absolute;
+}
+
+#y {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: block;
+	margin-left: -3.5rem;
+	position: absolute;
+}
+
+@media only screen and (max-width: 576px) {
+	.navbar-expand-sm {
+		background-color: white !important;
+	}
+	.navbar-brand {
+		color: blue !important;
+	}
+	.navbar-toggler-icon {
+		background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+	}
+	.fa-search {
+		color: black !important;
+	}
+	.color_mobile {
+		color: black !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.margin1 {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	.margin2 {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}
+
+.lstyle {
+	list-style-type: none;
+}
